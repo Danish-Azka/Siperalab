@@ -1,0 +1,21 @@
+{
+  "name": "web",
+  "private":"true",
+  "version": "1.0.0",
+  "description": "learning by doing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  }
+}
