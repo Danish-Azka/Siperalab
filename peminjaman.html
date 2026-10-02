@@ -23,7 +23,8 @@
     <h1>Ajukan Peminjaman</h1>
 
     <form action="/peminjaman" method="post">
-      <fieldset>
+      <div class="form-grid">
+        <fieldset>
         <legend>Data peminjam</legend>
 
         <label for="nim">NIM</label>
@@ -46,9 +47,9 @@
           minlength="3"
           required
         >
-      </fieldset>
+        </fieldset>
 
-      <fieldset>
+        <fieldset>
         <legend>Detail peminjaman</legend>
 
         <label for="alat">Peralatan</label>
@@ -91,9 +92,10 @@
           rows="5"
           required
         ></textarea>
-      </fieldset>
+        </fieldset>
+      </div>
 
-      <div>
+      <div class="form-consent">
         <input
           id="setuju"
           name="setuju"
@@ -107,11 +109,14 @@
         </label>
       </div>
 
-      <button type="submit">Kirim pengajuan</button>
+      <div class="form-actions">
+        <button type="reset">Bersihkan</button>
+        <button type="submit">Kirim pengajuan</button>
+      </div>
     </form>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <p>
       <a href="/peralatan.html">Kembali ke katalog</a>
     </p>

@@ -9,3 +9,4 @@ Hasil pemeriksaan menggunakan DevTools:
 - Border: 0.667 px
 - Margin: 16 px
 - Box-sizing: border-box
+
